@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookWise AI — Find your next favourite book</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="brand-icon">✦</span> BookWise <span class="brand-ai">AI</span></a>
+    <span class="top-note">A little help finding your next great read</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">YOUR PERSONAL READING COMPANION</span>
+        <h1>Find a book that<br><em>gets you.</em></h1>
+        <p>Tell us what you love. Our recommendation engine finds books with related topics, themes, and genres.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="book book-one">READ<br>MORE</div>
+        <div class="book book-two">STORIES<br>MATTER</div>
+        <div class="sparkle">✦</div>
+      </div>
+    </section>
+
+    <section class="finder panel">
+      <div class="section-kicker">LET'S FIND YOUR NEXT READ</div>
+      <h2>What are you in the mood for?</h2>
+      <form id="recommendForm">
+        <label for="query">Book title, author, or a topic you like</label>
+        <div class="search-row">
+          <input id="query" type="text" placeholder="e.g. magic, space, building good habits...">
+          <button class="primary-btn" type="submit">Find books <span>→</span></button>
+        </div>
+        <div class="filters">
+          <div class="filter-field">
+            <label for="genre">Choose a genre</label>
+            <select id="genre"><option value="All">All genres</option></select>
+          </div>
+          <div class="filter-field">
+            <label for="bookSelect">Or start from a favourite book</label>
+            <select id="bookSelect"><option value="">Choose a book (optional)</option></select>
+          </div>
+        </div>
+        <p class="hint">Tip: enter a topic, or choose a book to discover similar reads.</p>
+      </form>
+    </section>
+
+    <section class="results-section">
+      <div class="results-heading">
+        <div><div class="section-kicker">CURATED FOR YOU</div><h2 id="resultsTitle">Books to get you started</h2></div>
+        <span class="result-count" id="resultCount">Loading books…</span>
+      </div>
+      <div id="status" class="status" role="status"></div>
+      <div class="book-grid" id="bookGrid"></div>
+    </section>
+
+    <section class="how panel">
+      <div><div class="section-kicker">HOW IT WORKS</div><h2>Recommendations with a reason.</h2></div>
+      <p>BookWise compares book titles, genres, authors, and descriptions using TF-IDF and cosine similarity. It’s a content-based recommendation demo built for learning.</p>
+    </section>
+  </main>
+
+  <footer><strong>BookWise AI</strong><span>Made for curious readers · College project demo</span></footer>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

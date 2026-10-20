@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "rating": 4.8,
+    "cover": "🐉",
+    "description": "A quiet hobbit joins a dangerous quest with dwarves to reclaim a lost mountain kingdom and its treasure."
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "rating": 4.8,
+    "cover": "🪄",
+    "description": "A young wizard discovers a hidden magical world, friendship, mystery, and his place in an ancient conflict."
+  },
+  {
+    "id": 3,
+    "title": "A Game of Thrones",
+    "author": "George R. R. Martin",
+    "genre": "Fantasy",
+    "rating": 4.6,
+    "cover": "👑",
+    "description": "Rival noble families struggle for power in a vast kingdom filled with dragons, political intrigue, and danger."
+  },
+  {
+    "id": 4,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "rating": 4.7,
+    "cover": "🏜️",
+    "description": "On a desert planet, a young heir faces prophecy, politics, ecology, and a struggle over a precious resource."
+  },
+  {
+    "id": 5,
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "genre": "Science Fiction",
+    "rating": 4.7,
+    "cover": "🚀",
+    "description": "An astronaut stranded alone on Mars uses science, engineering, and humour to survive until rescue."
+  },
+  {
+    "id": 6,
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genre": "Science Fiction",
+    "rating": 4.8,
+    "cover": "🪐",
+    "description": "A lone astronaut wakes far from Earth and must solve a scientific mystery to save humanity."
+  },
+  {
+    "id": 7,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "rating": 4.6,
+    "cover": "👁️",
+    "description": "In a totalitarian society, a man questions surveillance, propaganda, truth, and the power of the state."
+  },
+  {
+    "id": 8,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "genre": "Dystopian",
+    "rating": 4.5,
+    "cover": "🏹",
+    "description": "A brave teenager enters a televised survival contest and challenges an oppressive government."
+  },
+  {
+    "id": 9,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Dystopian",
+    "rating": 4.3,
+    "cover": "🔥",
+    "description": "A fireman in a society that bans books begins to question censorship, conformity, and independent thought."
+  },
+  {
+    "id": 10,
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "genre": "Mystery",
+    "rating": 4.2,
+    "cover": "🕵️",
+    "description": "A wife's disappearance turns a marriage into a maze of secrets, unreliable stories, and psychological twists."
+  },
+  {
+    "id": 11,
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genre": "Mystery",
+    "rating": 4.4,
+    "cover": "🔎",
+    "description": "A journalist and a brilliant hacker investigate a decades-old disappearance involving a wealthy family."
+  },
+  {
+    "id": 12,
+    "title": "Murder on the Orient Express",
+    "author": "Agatha Christie",
+    "genre": "Mystery",
+    "rating": 4.5,
+    "cover": "🚂",
+    "description": "Detective Hercule Poirot investigates a murder aboard a snowbound luxury train where every passenger has secrets."
+  },
+  {
+    "id": 13,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "rating": 4.6,
+    "cover": "💌",
+    "description": "Elizabeth Bennet navigates family expectations, first impressions, wit, and a complicated romance."
+  },
+  {
+    "id": 14,
+    "title": "The Notebook",
+    "author": "Nicholas Sparks",
+    "genre": "Romance",
+    "rating": 4.2,
+    "cover": "❤️",
+    "description": "A moving love story follows two people whose bond survives class differences, time, and life's hardships."
+  },
+  {
+    "id": 15,
+    "title": "Me Before You",
+    "author": "Jojo Moyes",
+    "genre": "Romance",
+    "rating": 4.3,
+    "cover": "🌷",
+    "description": "An unlikely friendship grows into a life-changing relationship that challenges assumptions about love and choice."
+  },
+  {
+    "id": 16,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-Help",
+    "rating": 4.8,
+    "cover": "🌱",
+    "description": "A practical guide to building good habits, breaking bad ones, and making small improvements consistently."
+  },
+  {
+    "id": 17,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Self-Help",
+    "rating": 4.5,
+    "cover": "🎯",
+    "description": "Learn to focus without distraction and produce meaningful work in a world full of interruptions."
+  },
+  {
+    "id": 18,
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "genre": "Self-Help",
+    "rating": 4.5,
+    "cover": "📈",
+    "description": "Principles for personal effectiveness, proactive behaviour, prioritisation, communication, and leadership."
+  },
+  {
+    "id": 19,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "rating": 4.5,
+    "cover": "🌍",
+    "description": "A broad history of humanity explores culture, shared myths, agriculture, empires, science, and society."
+  },
+  {
+    "id": 20,
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "genre": "History",
+    "rating": 4.7,
+    "cover": "📔",
+    "description": "The diary of a Jewish teenager hiding during the Second World War offers a personal account of fear and hope."
+  },
+  {
+    "id": 21,
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genre": "Biography",
+    "rating": 4.5,
+    "cover": "📚",
+    "description": "A memoir about a woman who grows up isolated and pursues education while rethinking family and identity."
+  },
+  {
+    "id": 22,
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "Biography",
+    "rating": 4.4,
+    "cover": "💡",
+    "description": "A biography explores the life, creativity, ambition, leadership, and contradictions of Apple's co-founder."
+  },
+  {
+    "id": 23,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": "Finance",
+    "rating": 4.7,
+    "cover": "💰",
+    "description": "Short stories explain how behaviour, patience, risk, luck, and emotion shape financial decisions."
+  },
+  {
+    "id": 24,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "genre": "Finance",
+    "rating": 4.2,
+    "cover": "🏦",
+    "description": "A popular personal finance book contrasts different attitudes toward money, assets, work, and financial independence."
+  },
+  {
+    "id": 25,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "genre": "Science",
+    "rating": 4.4,
+    "cover": "🧬",
+    "description": "An influential explanation of evolution that examines natural selection through genes and biological behaviour."
+  },
+  {
+    "id": 26,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genre": "Science",
+    "rating": 4.3,
+    "cover": "🌌",
+    "description": "An accessible introduction to cosmology, black holes, space, time, and the origin of the universe."
+  },
+  {
+    "id": 27,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "genre": "Thriller",
+    "rating": 4.4,
+    "cover": "🤐",
+    "description": "A psychotherapist tries to uncover why a famous painter stopped speaking after a violent incident."
+  },
+  {
+    "id": 28,
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "genre": "Thriller",
+    "rating": 4.3,
+    "cover": "🗝️",
+    "description": "A symbologist follows cryptic clues through art, history, secret societies, and a dangerous conspiracy."
+  },
+  {
+    "id": 29,
+    "title": "Wonder",
+    "author": "R. J. Palacio",
+    "genre": "Young Adult",
+    "rating": 4.6,
+    "cover": "⭐",
+    "description": "A boy with a facial difference starts school and inspires classmates to think about kindness and empathy."
+  },
+  {
+    "id": 30,
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "genre": "Classic",
+    "rating": 4.7,
+    "cover": "🌟",
+    "description": "A poetic fable about a young traveller, friendship, love, imagination, and seeing beyond appearances."
+  },
+  {
+    "id": 31,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Classic",
+    "rating": 4.6,
+    "cover": "🕊️",
+    "description": "A child observes injustice, courage, prejudice, and compassion in a small Southern town."
+  },
+  {
+    "id": 32,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "rating": 4.3,
+    "cover": "🧭",
+    "description": "A shepherd travels in search of treasure and learns about purpose, courage, and following a dream."
+  },
+  {
+    "id": 33,
+    "title": "Into the Wild",
+    "author": "Jon Krakauer",
+    "genre": "Adventure",
+    "rating": 4.1,
+    "cover": "🏔️",
+    "description": "A nonfiction account follows a young man who abandons conventional life for a journey into the wilderness."
+  },
+  {
+    "id": 34,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "Psychology",
+    "rating": 4.4,
+    "cover": "🧠",
+    "description": "A psychologist explains two modes of thought and how biases influence judgement, decisions, and everyday life."
+  },
+  {
+    "id": 35,
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "genre": "Psychology",
+    "rating": 4.7,
+    "cover": "🕯️",
+    "description": "A psychiatrist reflects on survival, suffering, purpose, and the human search for meaning."
+  },
+  {
+    "id": 36,
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "genre": "Design",
+    "rating": 4.4,
+    "cover": "✏️",
+    "description": "A classic guide to human-centred design, usability, feedback, and making products easier to understand."
+  }
+]
